@@ -6,3 +6,9 @@
 [dev]
   command = "npm start"
   port = 3000
+
+# Redirect all paths to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
