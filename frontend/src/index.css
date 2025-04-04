@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #1F2937;
+  --text-color: #FFFFFF;
+  --accent1: #00FFFF;
+  --accent2: #A855F7;
+}
+
+.light {
+  --bg-color: #F3F4F6;
+  --text-color: #1F2937;
+  --accent1: #06B6D4;
+  --accent2: #7C3AED;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.glitch {
+  position: relative;
+  animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
