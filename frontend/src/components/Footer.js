@@ -1,4 +1,4 @@
-import React from 'react';
+simport React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaReddit, FaDiscord } from 'react-icons/fa';
 import { SiWechat } from 'react-icons/si'; // Simple Icons for WeChat
 
@@ -44,7 +44,7 @@ const Footer = () => {
             <FaReddit className="mr-2" /> Reddit
           </a>
           <a
-            href="https://discord.com/users/Sharbc"
+            href="https://discord.com/users/sharbc"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-cyan-400 transition-colors"
