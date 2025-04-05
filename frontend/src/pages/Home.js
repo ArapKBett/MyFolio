@@ -14,8 +14,7 @@ const Home = () => {
         transition={{ duration: 1 }}
         className="text-center z-10"
       >
-        <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 glitch" data-text="Web & Cybersecurity Pro">
-          Web & Cybersecurity Pro
+        <h1 className="text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 glitch" data-text="Everything Cybersecurity"
         </h1>
         <p className="mt-4 text-xl text-gray-300">Securing the digital world, one line of code at a time.</p>
         <button className="mt-6 px-6 py-3 bg-cyan-500 text-gray-900 font-bold rounded-full hover:bg-cyan-400 transition-all">
