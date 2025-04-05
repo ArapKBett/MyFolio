@@ -16,7 +16,7 @@ const Portfolio = () => {
       <div className="mb-20">
         <h2 className="text-4xl font-bold text-cyan-400 mb-8">About Me</h2>
         <p className="text-lg text-gray-300 leading-relaxed">
-          I’m a Web Developer and Cybersecurity Specialist experienced in crafting secure Websites, App and Software Systems. I’ve led teams and helped reduce vulnerabilities with cutting-edge security audits.
+          I am a Developer and Cybersecurity Specialist experienced in crafting secure Websites, App and Software Systems. I’ve led teams and helped reduce vulnerabilities with cutting-edge security audits.
         </p>
       </div>
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
         <h2 className="text-4xl font-bold text-cyan-400 mb-8">Experience</h2>
         <div className="space-y-8">
           {[
-            { role: 'Lead Consultant, Teaburg International', time: 'March 2022 - Present', tasks: ['Reduced vulnerabilities by 80%', 'Implemented firewalls'] },
+            { role: 'Lead Consultant, Teaburg International', time: 'March 2022 - Present', tasks: ['Reduced vulnerabilities by 80%', 'Implemented firewalls', 'System and Network Stability'] },
             { role: 'Internal Web Developer, Autoburg International', time: 'June 2020 - Feb 2022', tasks: ['Built secure intranet', 'Optimized performance'] },
           ].map((job) => (
             <motion.div key={job.role} initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }} className="p-6 bg-gray-800 rounded-lg shadow-lg">
