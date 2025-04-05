@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full bg-gray-800 shadow-lg z-10">
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-cyan-400">Kipkorir Bett</h1>
+        <h1 className="text-2xl font-bold text-cyan-400">Kipkorir Arap Bett</h1>
         <ul className="flex space-x-6">
           {[
             { name: 'Home', path: '/' },
