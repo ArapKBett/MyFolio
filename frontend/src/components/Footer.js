@@ -1,12 +1,13 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaReddit, FaDiscord, FaWechat } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaReddit, FaDiscord } from 'react-icons/fa';
+import { SiWechat } from 'react-icons/si'; // Simple Icons for WeChat
 
 const Footer = () => {
   return (
     <footer className="py-6 bg-gray-800 text-gray-400">
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center space-y-4 md:flex-row md:justify-between">
         {/* Copyright */}
-        <p>© 2025 Kipkorir Bett. All rights reserved.</p>
+        <p>© 2025 Kipkorir Arap Bett. All rights reserved.</p>
 
         {/* Social Links */}
         <div className="flex space-x-6">
@@ -27,7 +28,7 @@ const Footer = () => {
             <FaLinkedin className="mr-2" /> LinkedIn
           </a>
           <a
-            href="https://twitter.com/kp5_15"
+            href="https://twitter.com/kp15_5"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-cyan-400 transition-colors"
@@ -43,7 +44,7 @@ const Footer = () => {
             <FaReddit className="mr-2" /> Reddit
           </a>
           <a
-            href="https://discord.com/users/sharbc"
+            href="https://discord.com/users/Sharbc"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:text-cyan-400 transition-colors"
@@ -56,7 +57,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="flex items-center hover:text-cyan-400 transition-colors"
           >
-            <FaWechat className="mr-2" /> WeChat
+            <SiWechat className="mr-2" /> WeChat
           </a>
         </div>
       </div>
