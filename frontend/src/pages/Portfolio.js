@@ -16,7 +16,7 @@ const Portfolio = () => {
       <div className="mb-20">
         <h2 className="text-4xl font-bold text-cyan-400 mb-8">About Me</h2>
         <p className="text-lg text-gray-300 leading-relaxed">
-          I am a Developer and Cybersecurity Specialist experienced in crafting secure Websites, App and Software Systems. I’ve led teams and helped reduce vulnerabilities with cutting-edge security audits.
+          I am a Developer and Cybersecurity Specialist experienced in crafting secure Websites, Mobile App and Software Systems. I’ve led teams and helped curb incidences with cutting-edge security audits.
         </p>
       </div>
 
